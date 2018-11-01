@@ -1,0 +1,33 @@
+#home {
+    background-image: url(../images/soccer.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+#brand-logo {
+    color: white;
+    font-family: comic sans Ms;
+}
+
+ul li a {
+    color: white;
+    font-family: comic sans Ms;
+}
+
+nav {
+    background-color: gray;
+}
+
+/* nav bar button css */
+
+.waves-effect.waves-teal .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(0, 0, 0, 0.95);
+   }
+  
+  /* About me section */
+
+  #about {
+
+  }
