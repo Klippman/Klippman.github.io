@@ -103,7 +103,6 @@ nav .btn:hover {
 
 #about .card-action a:hover {
     text-decoration: none;
-    font-size: large;
 }
 
 .card-stacked p {
@@ -187,11 +186,17 @@ nav .btn:hover {
 
 #contact .text {
     color: black;
+    font-family: comic sans Ms;
+}
+
+#contact .text:hover {
+    font-weight: bold;
 }
 
 #contact .text_header {
     color: black;
     text-decoration: underline;
     margin-top: 0px;
+    font-family: comic sans Ms;
 }
 
