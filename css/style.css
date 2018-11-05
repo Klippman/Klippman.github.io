@@ -1,8 +1,13 @@
 /* <hr> and <h3> */
 
-h5 {
+h4 {
     text-align: center;
     font-family: cursive;
+    margin: 0px;
+}
+
+h4:hover {
+    color: white;
 }
 
 .top {
@@ -21,6 +26,10 @@ h5 {
 
 .transition {
     background-color: #F1F1F1;
+}
+
+.transition:hover {
+    background-color: #CACACA; 
 }
 
 /* nav bar */
@@ -147,8 +156,42 @@ nav .btn:hover {
     text-align: -webkit-center;
 }
 
+#projects .card-reveal {
+    background-color: #CACACA;
+}
+
+#projects .card-reveal p {
+    text-align: left;
+    text-indent: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#projects .card-reveal span {
+    text-decoration: underline;
+}
+
 /* contact section */
 
 #contact .page-footer {
     background-color: #74B4BF;
 }
+
+#contact .footer-copyright {
+    text-align: center;
+}
+
+#contact img {
+    height: 200px;
+    width: 300px;
+}
+
+#contact .text {
+    color: black;
+}
+
+#contact .text_header {
+    color: black;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
