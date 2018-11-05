@@ -76,7 +76,7 @@ nav .btn:hover {
 #home {
     background-image: url(../images/soccer.jpg);
     background-size: cover;
-    height: 800px;
+    height: 700px;
 }
 
 
@@ -190,7 +190,7 @@ nav .btn:hover {
 }
 
 #contact .text:hover {
-    font-weight: bold;
+    font-weight: ;
 }
 
 #contact .text_header {
