@@ -1,3 +1,5 @@
+
+
 /* mouseover animation for "Devon Klipp" logo */
 
 let nameLogo = document.querySelector(".brand-logo");
@@ -13,15 +15,28 @@ setTimeout(function(){
 /* Anchor offset #href */
 
 window.addEventListener("hashchange", function () {
-    window.scrollTo(window.scrollX, window.scrollY - 140);
+    window.scrollTo(window.scrollX, window.scrollY - 135);
 });
 
-/* typewriter effect */
+/* Typewriter animation */
 
-let typed2 = new Typed('#typed2', {
-    strings: ['Some <i>strings</i> with', 'Some <strong>HTML</strong>', 'Chars &times; &copy;'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    fadeOut: true,
-    loop: true
-  });
+var wrapper = document.querySelector(".wrapper");
+var text = document.querySelector(".text");
+
+var textCont = text.textContent;
+text.style.display = "none";
+
+for (var i = 0; i < textCont.length; i++) {
+  (function(i) {
+    setTimeout(function() {
+      // Created textNode to append
+      var texts = document.createTextNode(textCont[i])
+      var span = document.createElement('span');
+      span.appendChild(texts);
+
+      span.classList.add("wave");
+      wrapper.appendChild(span);
+
+    }, 75 * i);
+  }(i));
+}

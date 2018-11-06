@@ -36,7 +36,7 @@ h4:hover {
 
 #brand-logo {
     color: black;
-    font-family: comic sans Ms;
+    font-family: 'Roboto Condensed', sans-serif;;
     padding-left: 10px;
 }
 
@@ -49,7 +49,7 @@ nav {
 nav .btn {
     background-color: white;
     color: black;
-    font-family: comic sans Ms;
+    font-family: 'Roboto Condensed', sans-serif;;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -66,9 +66,6 @@ nav .btn:hover {
     of the button to still show through. */
     background-color: rgba(0, 0, 0, 0.95);
 }
-    
-     /* nav bar active css */
-
 
 
 /* Home section */
@@ -78,8 +75,48 @@ nav .btn:hover {
     background-size: cover;
     height: 800px;
     position:relative;
-    top:-16px;
 }
+
+    /* typewriter effect */
+
+    html {
+        box-sizing: border-box;
+      }
+      
+      *:before,
+      *:after {
+        box-sizing: inherit;
+        padding: 0;
+        margin: 0;
+      }
+      
+      body #home p {
+        background: #37393B;
+        color: #fff;
+        font-family: arial;
+        letter-spacing: 2px;
+      }
+      
+      .wrapper {
+        position: absolute;
+        top: 30%;
+        width: 90%;
+        left: 5%;
+        margin-top: -87.5px;
+        font-size: 30px;
+        height: 175px;
+      }
+      
+      .wave {
+        color: #999999;
+        animation: 1.2s color infinite;
+      }
+      
+      @keyframes color {
+        50% {
+          color: white;
+        }
+      }
 
 
 /* About me section */
@@ -188,17 +225,17 @@ nav .btn:hover {
 
 #contact .text {
     color: black;
-    font-family: comic sans Ms;
+    font-family: 'Roboto Condensed', sans-serif;;
 }
 
 #contact .text:hover {
-    font-weight: bold;
+    text-decoration: underline overline white;
 }
 
 #contact .text_header {
     color: black;
     text-decoration: underline;
     margin-top: 0px;
-    font-family: comic sans Ms;
+    font-family: 'Roboto Condensed', sans-serif;;
 }
 
