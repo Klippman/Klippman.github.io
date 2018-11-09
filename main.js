@@ -37,6 +37,6 @@ for (var i = 0; i < textCont.length; i++) {
       span.classList.add("wave");
       wrapper.appendChild(span);
 
-    }, 75 * i);
+    }, 45 * i);
   }(i));
 }
