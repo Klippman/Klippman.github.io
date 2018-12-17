@@ -20,10 +20,10 @@ window.addEventListener("hashchange", function () {
 
 /* Typewriter animation */
 
-var wrapper = document.querySelector(".wrapper");
-var text = document.querySelector(".text");
+const wrapper = document.querySelector(".wrapper");
+const text = document.querySelector(".text");
 
-var textCont = text.textContent;
+let textCont = text.textContent;
 text.style.display = "none";
 
 for (var i = 0; i < textCont.length; i++) {
@@ -40,3 +40,15 @@ for (var i = 0; i < textCont.length; i++) {
     }, 45 * i);
   }(i));
 }
+
+/* Breakpoint for background image change */
+
+let selector = document.querySelector('#home')
+
+window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer1.jpg')";
+    } else {
+      selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer.jpg')";
+    }
+});
