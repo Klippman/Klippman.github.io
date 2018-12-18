@@ -52,3 +52,15 @@ window.addEventListener('scroll', () => {
       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer.jpg')";
     }
 });
+
+/* Breakpoint for nav bar color to change to initial */
+
+let navColor = document.querySelector('nav')
+
+window.addEventListener('scroll', () => {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    navColor.style.background = 'initial';
+  } else {
+    navColor.style.background = '#74B4BF';
+  }
+});
