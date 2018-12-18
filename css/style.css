@@ -25,11 +25,11 @@ h4:hover {
 }
 
 .transition {
-    background-color: #F1F1F1;
+    background-color: #CACACA;
 }
 
 .transition:hover {
-    background-color: #CACACA; 
+    background-color: black; 
 }
 
 /* nav bar */
@@ -135,7 +135,7 @@ body #home p {
 
 #about {
     background-attachment: fixed;
-    background-image: url('../images/abstract.png');
+    background-image: url('../images/wall7.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +168,7 @@ body #home p {
 
 #skills {
     background-attachment: fixed;
-    background-image: url('../images/abstract.png');
+    background-image: url('../images/wall7.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +187,7 @@ body #home p {
 
 #skills .container a img:hover {
     border-radius: 25px;
-    background-color: #CACACA;
+    background-color: initial;
     box-shadow: 0 6px 10px 0 black;
 }
 
@@ -205,7 +205,7 @@ body #home p {
 
 #projects {
     background-attachment: fixed;
-    background-image: url('../images/abstract.png');
+    background-image: url('../images/wall7.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,7 +232,7 @@ body #home p {
 
 #contact .page-footer {
     background-attachment: fixed;
-    background-image: url('../images/abstract.png');
+    background-image: url('../images/wall7.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,22 +248,25 @@ body #home p {
 }
 
 #contact .certificate:hover {
-    box-shadow: 0 6px 10px 0 white;
+    box-shadow: 0 6px 10px 0 black;
 }
 
 #contact .text {
-    color: white;
+    color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 #contact .text:hover {
-    text-decoration: underline overline white;
+    text-decoration: underline overline black;
 }
 
 #contact .text_header {
-    color: white;
+    color: black;
     text-decoration: underline;
     margin-top: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.container {
+    color: black;
+}
