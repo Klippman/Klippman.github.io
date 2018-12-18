@@ -71,8 +71,11 @@ nav .btn:hover {
 /* Home section */
 
 #home {
-    background-image: url(../images/soccer.jpg);
+    background-image: url('../images/soccer.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 800px;
     position:relative;
 }
@@ -131,7 +134,11 @@ body #home p {
 }
 
 #about {
-    background-color: #74B4BF;
+    background-attachment: fixed;
+    background-image: url('../images/abstract.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
 }
 
@@ -160,8 +167,12 @@ body #home p {
 /* skills section */
 
 #skills {
+    background-attachment: fixed;
+    background-image: url('../images/abstract.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
-    background-color: #74B4BF;
 }
 
 #skills .container {
@@ -193,9 +204,13 @@ body #home p {
 }
 
 #projects {
+    background-attachment: fixed;
+    background-image: url('../images/abstract.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 800px;
     width: 1440px;
-    background-color: #74B4BF;
     text-align: -webkit-center;
 }
 
@@ -216,7 +231,11 @@ body #home p {
 /* contact section */
 
 #contact .page-footer {
-    background-color: #74B4BF;
+    background-attachment: fixed;
+    background-image: url('../images/abstract.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contact .footer-copyright {
@@ -229,11 +248,11 @@ body #home p {
 }
 
 #contact .certificate:hover {
-    box-shadow: 0 6px 10px 0 black;
+    box-shadow: 0 6px 10px 0 white;
 }
 
 #contact .text {
-    color: black;
+    color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -242,7 +261,7 @@ body #home p {
 }
 
 #contact .text_header {
-    color: black;
+    color: white;
     text-decoration: underline;
     margin-top: 0px;
     font-family: 'Roboto Condensed', sans-serif;

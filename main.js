@@ -37,7 +37,7 @@ for (var i = 0; i < textCont.length; i++) {
       span.classList.add("wave");
       wrapper.appendChild(span);
 
-    }, 45 * i);
+    }, 30 * i);
   }(i));
 }
 
@@ -46,7 +46,7 @@ for (var i = 0; i < textCont.length; i++) {
 let selector = document.querySelector('#home')
 
 window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer1.jpg')";
     } else {
       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer.jpg')";
