@@ -51,6 +51,7 @@ window.addEventListener('scroll', () => {
       selector.style.transition = 'background-image 0.5s ease-in-out';
     } else {
       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer.jpg')";
+      selector.style.transition = 'background-image 0.5s ease-in-out';
     }
 });
 
@@ -64,5 +65,6 @@ window.addEventListener('scroll', () => {
     navColor.style.transition = 'background-color 0.2s ease-in-out';
   } else {
     navColor.style.background = '#74B4BF';
+    navColor.style.transition = 'background-color 0.2s ease-in-out';
   }
 });
