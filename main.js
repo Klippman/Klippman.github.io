@@ -48,6 +48,7 @@ let selector = document.querySelector('#home')
 window.addEventListener('scroll', () => {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer1.jpg')";
+      selector.style.transition = 'background-image 0.5s ease-in-out';
     } else {
       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer.jpg')";
     }
@@ -60,6 +61,7 @@ let navColor = document.querySelector('nav')
 window.addEventListener('scroll', () => {
   if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     navColor.style.background = 'initial';
+    navColor.style.transition = 'background-color 0.2s ease-in-out';
   } else {
     navColor.style.background = '#74B4BF';
   }
