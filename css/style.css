@@ -204,6 +204,11 @@ body #home p {
     box-shadow: 0 6px 10px 0 black;
 }
 
+.card-content a:hover {
+    color: red;
+    font-weight: bolder;
+}
+
 #projects {
     background-attachment: fixed;
     background-image: url('../images/wall7.jpg');
