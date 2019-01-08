@@ -97,7 +97,7 @@ html {
 body #home p {
     background: #37393B;
     color: #fff;
-    font-family: arial;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
 }
 
@@ -112,7 +112,7 @@ body #home p {
 }
 
 .wave {
-    color: #999999;
+    color: #CACACA;
     animation: 1.2s color infinite;
 }
 
@@ -248,13 +248,15 @@ body #home p {
     text-align: center;
 }
 
-#contact img {
+.certificate img {
     height: 200px;
     width: 300px;
+    border-radius: 15%;
+    border: 2px solid #CACACA;
 }
 
-#contact .certificate:hover {
-    box-shadow: 0 6px 10px 0 black;
+.certificate img:hover {
+    border: 5px solid black;
 }
 
 #contact .text {
