@@ -41,7 +41,7 @@ for (var i = 0; i < textCont.length; i++) {
   }(i));
 }
 
-/* Breakpoint for background image change */
+/* Anchor point for background image change */
 
 let selector = document.querySelector('#home')
 
@@ -55,7 +55,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-/* Breakpoint for nav bar color to change to initial */
+/* Anchor point for nav bar color to change to initial */
 
 let navColor = document.querySelector('nav')
 
