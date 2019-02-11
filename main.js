@@ -12,7 +12,7 @@ setTimeout(function(){
 }, 3500);
 }, false);
 
-/* Anchor offset #href */
+/* Anchor offset #href Nav bar list*/
 
 window.addEventListener("hashchange", function () {
     window.scrollTo(window.scrollX, window.scrollY - 135);
