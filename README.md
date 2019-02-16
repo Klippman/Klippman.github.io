@@ -5,5 +5,5 @@ This is my personal, static website. It explains a little about my history, my s
 Utilized html5, CSS, JavaScript and Materialize css library during development.
 
 ![Window Settings](./images/portfolio.png)
-![Window Settings](
-![Window Settings](
+![Window Settings](./images/portfolio2.png)
+![Window Settings](./images/portfolio3.png)
