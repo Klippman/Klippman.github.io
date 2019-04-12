@@ -1,5 +1,3 @@
-
-
 /* mouseover animation for "Devon Klipp" logo */
 
 let nameLogo = document.querySelector(".brand-logo");
