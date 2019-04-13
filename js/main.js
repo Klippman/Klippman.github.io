@@ -61,8 +61,10 @@ window.addEventListener('scroll', () => {
   if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     navColor.style.background = 'initial';
     navColor.style.transition = 'background-color 0.2s ease-in-out';
+    navColor.style.boxShadow = '0 1px 3px black';
   } else {
-    navColor.style.background = '#74B4BF';
+    navColor.style.background = '#CACACA';
     navColor.style.transition = 'background-color 0.2s ease-in-out';
+    navColor.style.boxShadow = '0 2px 5px white';
   }
 });

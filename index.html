@@ -11,13 +11,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
         <title>Devon's Portfolio</title>
     </head>
+
     <body>
-        <div class="navbar-fixed">
+
+        <header class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
                     <a id="brand-logo" class="brand-logo">DEVON KLIPP</a>
@@ -30,23 +33,26 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+        </header>
+
         <div id="home" class="responsive-img" class="home">
             <div class="wrapper">
                 <p class="text"> Success is no accident. It is hard work, perseverance, learning, sacrifice and most of all, love for what you are doing or learning to do. The more difficult the victory, the greater the happiness in winning.” – Pelé </p>
             </div>
         </div>
+
         <div class="transition">
             <hr class="top">
             <h4>ABOUT ME</h4>
             <hr class="bottom">
         </div>
-        <div id="about" class="valign-wrapper">
+
+        <section id="about" class="valign-wrapper">
             <div class="container">
                 <div class="col s12 m7">
                     <div class="card horizontal">
-                        <div class="card-image"><img src="images/devon.jpg" class="responsive-img"></div>
-                            <div class="card-stacked">
+                        <div class="card-image bio_1"><img src="images/devon.jpg" class="responsive-img"></div>
+                            <div class="card-stacked bio_2">
                                 <div class="container">
                                     <div class="card-content-about">
                                         <p>I'm a self-motivated, aspiring web developer with a thirst for knowledge. Keen interest in JavaScript, but am no stranger to learning new programming languages or skills on demand. I take pride in my ability to produce top quality work while continuing to find ways to better myself daily.</p> 
@@ -66,13 +72,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         <div class="transition">
             <hr class="top">
             <h4>SKILLS</h4>
             <hr class="bottom">
         </div>
-        <div id="skills" class="valign-wrapper">
+
+        <section id="skills" class="valign-wrapper">
             <div class="container skills">
                 <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank" alt="html5"><img src="images/html5.svg"></a>
                 <a href="https://www.w3schools.com/css/default.asp" target="_blank" alt="css3"><img src="images/css3.svg"></a>
@@ -87,15 +95,17 @@
                 <a href="https://github.com/" target="_blank" alt="Github"><img src="images/github.svg"></a>
                 <a href="https://id.heroku.com/login" target="_blank" alt="Heroku"><img src="images/heroku.svg"></a>
             </div>
-        </div>
+        </section>
+
         <div class="transition">
             <hr class="top">
             <h4>PROJECTS</h4>
             <hr class="bottom">
         </div>
-        <div id="projects" class="valign-wrapper">
+
+        <section id="projects" class="valign-wrapper">
             <div class="row">
-                <div class="col m4">
+                <div class="col m4 project_1">
                     <div class="card small">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="images/sprivia.png">
@@ -126,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m4">
+                <div class="col m4 project_1">
                     <div class="card small">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="images/space_land.png">
@@ -156,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m4">
+                <div class="col m4 project_1">
                     <div class="card small">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="images/megaman.png">
@@ -187,13 +197,15 @@
                     </div>
                 </div>
             </div>   
-        </div>
+        </section>
+
         <div class="transition">
             <hr class="top">
             <h4>CONTACTS</h4>
             <hr class="bottom">
         </div>
-        <div id="contact">
+
+        <section id="contact">
             <footer class="page-footer">
                 <div class="container">
                     <div class="row">
@@ -221,12 +233,13 @@
                     </div>
                 </div>
             </footer>
-        </div>
+        </section>
+
+        <script type="text/javascript" src="js/materialize.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/jQuery.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->

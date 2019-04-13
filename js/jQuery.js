@@ -1,5 +1,32 @@
 $(document).ready(function() {
 
+    /* Animations on scroll */
+
+    $('.bio_1').waypoint(function(direction) {
+        $('.bio_1').addClass('animated fadeInRight');
+    }, {
+        offset: '50%'
+    });
+
+    $('.bio_2').waypoint(function(direction) {
+        $('.bio_2').addClass('animated fadeInLeft');
+    }, {
+        offset: '50%'
+    });
+
+    $('.skills').waypoint(function(direction) {
+        $('.skills').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+
+    $('.project_1').waypoint(function(direction) {
+        $('.project_1').addClass('animated flip');
+    }, {
+        offset: '50%'
+    });
+
+
     /* Navigation scroll */
     // Select all links with hashes
     $('a[href*="#"]')
@@ -37,13 +64,5 @@ $(document).ready(function() {
             }
         }
     });
-
-    /* Animations on scroll */
-
-    $('.skills').waypoint(function(direction) {
-        $('.skills').addClass('animated fadeIn');
-    }, {
-        offset: '50%'
-    })
 
 });

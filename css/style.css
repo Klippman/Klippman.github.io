@@ -1,4 +1,5 @@
 /* <hr> and <h3> */
+/* ---------------- */
 
 h4 {
     text-align: center;
@@ -33,6 +34,7 @@ h4:hover {
 }
 
 /* nav bar */
+/* ---------------- */
 
 #brand-logo {
     color: black;
@@ -41,10 +43,12 @@ h4:hover {
 }
 
 nav {
-    background-color: #74B4BF;
+    background-color: #CACACA;
+    box-shadow: 0 2px 5px white;
 }
 
      /* nav bar button css */
+    /* ---------------- */
 
 nav .btn {
     background-color: white;
@@ -67,8 +71,9 @@ nav .btn:hover {
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-
+/* ---------------- */
 /* Home section */
+/* ---------------- */
 
 #home {
     background-image: url('../images/soccer1.jpg');
@@ -82,6 +87,7 @@ nav .btn:hover {
 }
 
     /* typewriter effect */
+    /* ---------------- */
 
 html {
     box-sizing: border-box;
@@ -122,21 +128,34 @@ body #home p {
     }
 }
 
-
+/* ---------------- */
 /* About me section */
+/* ---------------- */
+
+.bio_1,
+.bio_2 {
+    opacity: 1;
+    animation-duration: 1s;
+}
+
+.bio_1 .animated,
+.bio_2 .animated {
+    opacity: 0;
+}
 
 .card-stacked {
     background-color: #CACACA;
-    box-shadow: 0 6px 10px 0 black;
+    box-shadow: 0 6px 10px 0 white;
 }
 
 .card-image {
-    box-shadow: 0 6px 10px 0 black;
+    box-shadow: 0 6px 10px 0 white;
 }
 
 #about {
     background-attachment: fixed;
-    background-image: url('../images/wall7.jpg');
+    /* background-image: url('../images/wall7.jpg'); */
+    background-color: #222f3e;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,6 +164,8 @@ body #home p {
 
 #about .card-action a {
     color: lightseagreen;
+    margin-left: 23px;
+    margin-right: 0;
     text-decoration: underline;
     text-decoration-color: black;
     font-family: fantasy;
@@ -164,8 +185,18 @@ body #home p {
     text-justify: inter-word;
 }
 
-
+/* ---------------- */
 /* skills section */
+/* ---------------- */
+
+.skills {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.skills .animated {
+    opacity: 1;
+}
 
 #skills {
     background-attachment: fixed;
@@ -192,7 +223,9 @@ body #home p {
     box-shadow: 0 6px 10px 0 black;
 }
 
+/* ---------------- */
 /* projects section */
+/* ---------------- */
 
 .card.small {
     width: 300px;
@@ -234,7 +267,9 @@ body #home p {
     text-decoration: underline;
 }
 
+/* ---------------- */
 /* contact section */
+/* ---------------- */
 
 #contact .page-footer {
     background-attachment: fixed;
