@@ -63,7 +63,7 @@ window.addEventListener('scroll', () => {
     navColor.style.transition = 'background-color 0.2s ease-in-out';
     navColor.style.boxShadow = '0 1px 3px black';
   } else {
-    navColor.style.background = '#CACACA';
+    navColor.style.background = '#dfe6e9';
     navColor.style.transition = 'background-color 0.2s ease-in-out';
     navColor.style.boxShadow = '0 2px 5px white';
   }

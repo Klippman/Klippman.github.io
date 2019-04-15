@@ -7,32 +7,6 @@ h4 {
     margin: 0px;
 }
 
-h4:hover {
-    color: white;
-}
-
-.top {
-    height: 8px;
-    background-color: black;
-    border-radius: 50%;
-    margin-top: 0px;
-}
-
-.bottom {
-    height: 8px;
-    background-color: black;
-    border-radius: 50%;
-    margin-bottom: 0px;
-}
-
-.transition {
-    background-color: #CACACA;
-}
-
-.transition:hover {
-    background-color: black; 
-}
-
 /* nav bar */
 /* ---------------- */
 
@@ -43,7 +17,7 @@ h4:hover {
 }
 
 nav {
-    background-color: #CACACA;
+    background-color: #dfe6e9;
     box-shadow: 0 2px 5px white;
 }
 
@@ -145,20 +119,15 @@ body #home p {
 
 .card-stacked {
     background-color: #CACACA;
-    box-shadow: 0 6px 10px 0 white;
+    box-shadow: 0 6px 10px 0 black;
 }
 
 .card-image {
-    box-shadow: 0 6px 10px 0 white;
+    box-shadow: 0 6px 10px 0 black;
 }
 
 #about {
-    background-attachment: fixed;
-    /* background-image: url('../images/wall7.jpg'); */
-    background-color: #222f3e;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #dfe6e9;
     height: 600px;
 }
 
@@ -200,7 +169,7 @@ body #home p {
 
 #skills {
     background-attachment: fixed;
-    background-image: url('../images/wall7.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/desk.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,7 +189,7 @@ body #home p {
 #skills .container a img:hover {
     border-radius: 25px;
     background-color: initial;
-    box-shadow: 0 6px 10px 0 black;
+    box-shadow: 0 6px 10px 0 white;
 }
 
 /* ---------------- */
@@ -244,7 +213,7 @@ body #home p {
 
 #projects {
     background-attachment: fixed;
-    background-image: url('../images/wall7.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/notepad.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,11 +241,7 @@ body #home p {
 /* ---------------- */
 
 #contact .page-footer {
-    background-attachment: fixed;
-    background-image: url('../images/wall7.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #dfe6e9;
 }
 
 #contact .footer-copyright {
@@ -312,4 +277,8 @@ body #home p {
 
 .container {
     color: black;
+}
+
+.page-footer .footer-copyright {
+    background-color: #dfe6e9;
 }
