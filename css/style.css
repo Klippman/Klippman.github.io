@@ -50,7 +50,7 @@ nav .btn:hover {
 /* ---------------- */
 
 #home {
-    background-image: url('../images/soccer1.jpg');
+    background-image: url('../images/soccer1-min.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -169,7 +169,7 @@ body #home p {
 
 #skills {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/desk.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/desk-min.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,7 +213,7 @@ body #home p {
 
 #projects {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/notepad.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/notepad-min.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
