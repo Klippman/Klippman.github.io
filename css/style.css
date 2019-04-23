@@ -210,10 +210,8 @@ body #home p {
 .btn_link:hover,
 .btn_link:active {
     background-color: #00a8ff;
-    border: 2px solid #00a8ff;
+    border: 2px solid white;
     color: white;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .card.small {
