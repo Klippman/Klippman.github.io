@@ -196,6 +196,26 @@ body #home p {
 /* projects section */
 /* ---------------- */
 
+.btn_link:link,
+.btn_link:visited {
+    border: 2px solid #00a8ff;
+    border-radius: 25px;
+    color: #00a8ff;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, border 0.3s, color 0.3s, font-weight 0.3s, text-transform 0.3s;
+}
+
+.btn_link:hover,
+.btn_link:active {
+    background-color: #00a8ff;
+    border: 2px solid #00a8ff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .card.small {
     width: 300px;
     height: 275px;
@@ -204,11 +224,6 @@ body #home p {
 .card-content {
     background-color: #CACACA;
     box-shadow: 0 6px 10px 0 black;
-}
-
-.card-content a:hover {
-    color: red;
-    font-weight: bolder;
 }
 
 #projects {
