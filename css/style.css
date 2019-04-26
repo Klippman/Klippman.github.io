@@ -17,7 +17,7 @@ h4 {
 }
 
 nav {
-    background-color: #dfe6e9;
+    background-color: #0984e3;
     box-shadow: 0 2px 5px white;
 }
 
@@ -127,7 +127,7 @@ body #home p {
 }
 
 #about {
-    background-color: #dfe6e9;
+    background-color: #0984e3;
     height: 600px;
 }
 
@@ -226,7 +226,7 @@ body #home p {
 
 #projects {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/notepad-min.jpg');
+    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('../images/notepad-min.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,7 +254,7 @@ body #home p {
 /* ---------------- */
 
 #contact .page-footer {
-    background-color: #dfe6e9;
+    background-color: #0984e3;
 }
 
 #contact .footer-copyright {
@@ -293,5 +293,5 @@ body #home p {
 }
 
 .page-footer .footer-copyright {
-    background-color: #dfe6e9;
+    background-color: #0984e3;
 }
