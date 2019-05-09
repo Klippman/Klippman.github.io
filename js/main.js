@@ -39,19 +39,6 @@ for (var i = 0; i < textCont.length; i++) {
   }(i));
 }
 
-/* Anchor point for background image change */
-
-// let selector = document.querySelector('#home')
-
-// window.addEventListener('scroll', () => {
-//     if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
-//       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer1.jpg')";
-//       selector.style.transition = 'background-image 0.4s ease-in-out';
-//     } else {
-//       selector.style.backgroundImage = "url('../Klippman.github.io/images/soccer.jpg')";
-//       selector.style.transition = 'background-image 0.4s ease-in-out';
-//     }
-// });
 
 /* Anchor point for nav bar color to change to initial */
 
