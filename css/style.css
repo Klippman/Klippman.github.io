@@ -191,7 +191,8 @@ body #home p {
 #skills .container a img:hover {
     border-radius: 25px;
     background-color: initial;
-    box-shadow: 0 6px 10px 0 white;
+    box-shadow: 0 2px 2px 0 white;
+    transform: scale(1.03);
 }
 
 /* ---------------- */
