@@ -38,8 +38,6 @@ nav .btn:hover {
     background-color: #0984e3;
     color: white;
     border: 2px solid white;
-    transform: scale(1.05);
-
 }
 
 .waves-effect.waves-teal .waves-ripple {
