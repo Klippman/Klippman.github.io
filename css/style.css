@@ -51,7 +51,7 @@ nav .btn:hover {
 /* ---------------- */
 
 #home {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/coding.gif');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/coding.gif');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ body #home p {
 
 #projects {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('../images/notepad-min.jpg');
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('../images/notepad-min.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
