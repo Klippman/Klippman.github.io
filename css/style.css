@@ -31,7 +31,6 @@ nav .btn {
     box-shadow: 0 2px 2px 0 black;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
-    transform: scale(1);
 }
 
 nav .btn:hover {
@@ -149,7 +148,6 @@ body #home p {
 
 .card-stacked p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent: 30px;
     text-align: justify;
     text-justify: inter-word;
 }

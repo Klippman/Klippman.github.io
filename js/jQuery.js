@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
 
     $('.project_1').waypoint(function(direction) {
-        $('.project_1').addClass('animated flip');
+        $('.project_1').addClass('animated tada');
     }, {
         offset: '50%'
     });
